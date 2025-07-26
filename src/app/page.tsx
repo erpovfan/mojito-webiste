@@ -1,13 +1,16 @@
-import MainPage from "@/components/MainPage";
-import Image from "next/image";
-import Link from "next/link";
+import NavBar from "@/components/NavBar";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { SplitText } from "gsap/SplitText";
+
+gsap.registerPlugin(ScrollTrigger, SplitText);
 
 export default function Home() {
   return (
     <>
-      <div className="flex-center">
-        <MainPage />
-      </div>
+      <main>
+        <NavBar />
+      </main>
     </>
   );
 }
