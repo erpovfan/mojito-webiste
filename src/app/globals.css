@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Modern Negra";
-  src: url('/fonts/ModernNegra-Regular.ttf') format("truetype");
+  src: url('/fonts/ModernNegraDemo.ttf') format("truetype");
 }
 
 
@@ -82,7 +82,7 @@ nav {
     }
 
     a {
-        @apply cursor-pointer text-nowrap md:text-base text-sm;
+        @apply cursor-pointer text-nowrap md:text-base text-sm flex-center gap-2;
     }
 
     ul {
