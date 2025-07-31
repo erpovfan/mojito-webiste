@@ -9,7 +9,7 @@ gsap.registerPlugin(SplitText);
 import Hero from "@/components/Hero";
 import Cocktails from "@/components/Cocktails ";
 import About from "@/components/About";
-
+import Art from "@/components/Art";
 export default function Home() {
   return (
     <>
@@ -18,6 +18,7 @@ export default function Home() {
         <Hero />
         <Cocktails />
         <About />
+        <Art />
       </main>
     </>
   );
