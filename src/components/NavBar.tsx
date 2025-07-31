@@ -3,7 +3,8 @@ import React from "react";
 
 import { navLinks } from "../../constants";
 import Image from "next/image";
-
+import SplitText from "gsap/SplitText";
+gsap.registerPlugin(SplitText);
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
